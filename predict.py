@@ -32,8 +32,8 @@ from sklearn.metrics import mean_squared_error
 ho_predictions = predict_from_csv("fish_holdout_demo.csv")
 ho_truth = pd.read_csv("fish_holdout_demo.csv")["Weight"].values
 ho_mse = mean_squared_error(ho_truth, ho_predictions["Prediction"])
-print(ho_mse)
+print(round(ho_mse, 2))
 root_mse = np.sqrt(ho_mse)
-print(root_mse)
+print(round(root_mse, 2))
 ######
 
