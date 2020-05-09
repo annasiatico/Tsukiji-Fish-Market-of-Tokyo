@@ -17,8 +17,6 @@ def predict_from_csv(path_to_csv):
     df_preds = pd.DataFrame(predictions, columns=['Prediction'])
     y = y.reset_index(drop=True)
     df_preds['Target'] = np.exp(y)
-    #df_pf['Residual'] = df_pf['Target'] - df_pf['Prediction']
-    #df_pf['Difference%'] = np.absolute(df_pf['Residual']/df_pf['Target']*100)
     pd.options.display.max_rows = 999
     pd.set_option('display.float_format', lambda x: '%.2f' % x)
     
