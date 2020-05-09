@@ -11,3 +11,9 @@ We got to work and gathered measurements from a few different species of fish.
 We want to train a regression model using Scikit-Learn to predict the weight of a fish using some of the features we were able to measure. 
 
 We have no idea which features will be good predictors.
+
+## Predictions
+
+After some analysis, below is a comparison of the predictions vs. the actual weights.
+
+![Prediction](Prediction.png)
