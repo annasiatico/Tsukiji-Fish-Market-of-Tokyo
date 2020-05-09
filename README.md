@@ -14,6 +14,6 @@ We have no idea which features will be good predictors.
 
 ## Predictions
 
-After some analysis, below is a comparison of the predictions vs. the actual weights.
+After some analysis, below is a comparison of the predictions vs. the actual weights of some sample data.
 
 ![Prediction](Prediction.png)
